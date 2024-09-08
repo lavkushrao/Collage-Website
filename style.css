@@ -1,0 +1,294 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body,html{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6dddd9e;
+    
+}
+.width-100
+{
+  width: 100%;  
+  margin: 0px auto;
+  float: left;
+}
+.container1
+{
+    width:auto;
+    margin: 0px auto;
+}
+.top-header
+{
+   background: #8e6457; 
+   padding: 5px 0px;
+   border-bottom: 1px solid #3131315e;
+}
+.news-list
+{
+ background: #fff;
+ color: red;
+ padding: 6px;
+ font-size: 10px;
+ border-radius: 8px;
+}
+.headquote
+{
+    font-size: 18px;
+    color: #fff;
+    width: 80%;
+    margin-left: 10px
+}
+
+.header-menu
+{
+   position: relative; 
+   box-shadow: 0px 2px 5px 0px #00000036;
+}
+.logo
+{
+    width: fit-content;
+    float: left;
+   
+}
+.logo img
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    cursor: pointer; 
+    margin: 5px 10px;  
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px 1px #afa4a4;
+}
+
+.main-menu
+{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+    
+}
+.main-menu a
+{
+    font-weight: 500px;
+    color: #3a3a3a;
+    font-size: 20px;
+    margin:0 30px;
+    text-decoration:none; 
+    font-weight: 600;
+    padding:0 10px;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px #d9d3d3;
+    border-radius: 20px;
+}
+.main-menu a:hover
+{ 
+   transition: all 0.2s ease-in-out;
+   border-style: solid;
+   border-radius: 10px;
+   color: rgba(14, 151, 131, 0.829);
+}
+
+
+.color{
+    color: rgb(46, 72, 7);
+    font-size: 20px;
+}
+/* banner section*/
+
+.row 
+{
+align-items: center;
+display: flex;
+justify-content: space-around;
+padding: 2px;
+
+}
+.col-2
+{
+    background: url(image2.jpg) ;
+   width:1350px;
+   height:600px;
+   align-items: center;
+}
+.col-2 h1
+{
+    align-items: center;
+    padding-left: 300px;
+    padding-top: 200px;
+    color: rgb(230, 237, 229);
+    background: transparent,rgb(207, 219, 207);
+    
+}
+.col-2 p
+{
+    align-items: center;
+    padding-left: 300px;
+    color: rgb(253, 255, 253);
+    background: transparent,rgb(224, 227, 224);
+    font-size: 20px;
+    
+}
+.btn
+{
+    
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 30px; 
+    color: #e3cecee7;
+    padding: 8px 30px; 
+    background-color: #8127d5db;
+    border-radius: 30px;
+    
+
+
+}
+
+
+
+/* section */
+/*box section*/
+
+.margin-top-50
+{
+    margin-top: 50px;
+
+}
+.container
+{
+   
+    display: flex;
+}
+.width-33
+{
+    margin: 0px 2px;
+   
+}
+
+
+.latest-news
+{
+   
+    background: #fff;
+    padding: 10px 30px;
+    height: 370px;
+    width: 320px;
+   margin: 2px 10px;
+   border-radius: 10px;
+   box-shadow:4px 10px  #8f8c8c;
+    
+}
+.heading-sect
+{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: rgba(33, 56, 130, 0.6);
+    color: #fff;
+    box-shadow: #3a3a3a;
+    border-radius: 10px;
+}
+.head-title
+{
+    margin: 0px;
+    padding-left: 90px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.latest-news-ul
+{
+    padding-top: 1px;
+    list-style: none;
+    line-height:40px;
+    width: 400px;
+    height: 300px;
+}
+
+/* box section*/
+
+
+
+/* upcoming event section*/
+
+.upcoming-event-list
+{
+   
+    list-style: none;
+    width: 400px;
+    height: 300px;
+}
+.upcoming-event-list li
+{
+  width: 100%;
+  float: left;
+  margin-bottom: 7px;
+  line-height: 10px;
+}
+.event-date
+{
+   background: #225f7b; 
+   width: 30px;
+   float: left;
+   align-items: center;
+   font-size: 10px;
+   color: #fff;
+   padding: 8px;
+   margin-right: 10px;
+   border-radius: 10px;
+}
+/* upcoming event section*/
+
+/* gallery section*/
+
+/* gallery section*/
+
+
+.recruiter
+{
+    font-size: 28px;
+    color: rgb(78, 79, 189);
+    margin-bottom: 5px;
+    margin-left: 20px;
+    box-shadow: 1px 2px 2px;
+    float: left;
+    border-radius: 2px;
+    
+}
+.recruit-marquee
+{
+    height: 100px;
+}
+.recruit-marquee img
+{
+    height: 80px;
+    width: 140px;
+    padding: 0px 2px;
+    box-shadow:1px 2px 2px 1px #3a3a3a;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+/* section */
+.credit
+{
+    margin: 25px 250px;
+    color: hsla(0, 55%, 41%, 0.998);
+    box-shadow: 1px 1px 1px 1px #211e1e;
+    padding: 2px 2px;
+    border-radius: 10px;
+    
+}
+
+
